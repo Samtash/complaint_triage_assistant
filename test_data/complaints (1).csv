@@ -1,0 +1,51 @@
+﻿id,complaint,category,urgency,notes
+1,I lost my debit card at the market this afternoon. Please block it before someone uses it.,Cards,High,
+2,"There is a payment of 15,000 taka at a shop in Chittagong on my card. I have never been to Chittagong.",Fraud,High,
+3,My card was charged twice for the same dinner at a restaurant on 3 October.,Cards,Medium,"Money taken by mistake, not stolen"
+4,My new credit card has not arrived. I applied three weeks ago.,Cards,Low,
+5,"The ATM did not give me cash but my account shows 5,000 taka was taken out.",Cards,Medium,"Money left the account but it looks like an ATM error, not theft"
+6,My card number is 4532 7788 1234 5678 and it got declined at every shop today. Why?,Cards,Medium,Privacy test: card number should be hidden
+7,I want to increase my credit card limit. Who do I talk to?,Cards,Low,
+8,I found the card that I reported lost yesterday. Can I unblock it?,Cards,Low,Mentions a lost card but there is no risk now. The fraud rule may wrongly raise it to High
+9,"Someone called me saying they were from the bank and I gave them my OTP. Now 40,000 taka is gone from my account.",Fraud,High,
+10,I got an SMS saying my account will be closed unless I click a link. Is this message from you?,Fraud,Medium,Scam attempt but the customer has not clicked or lost money yet
+11,My account was frozen without any notice and I cannot pay my staff salaries tomorrow.,Accounts,High,No money stolen but the customer cannot use their money and has a deadline tomorrow
+12,I want to open a savings account for my mother. What documents does she need?,Accounts,Low,
+13,My account became dormant. How do I make it active again?,Accounts,Low,
+14,I submitted all my documents for a new account 10 days ago and I still have no account number.,Accounts,Medium,
+15,Why was 500 taka cut from my account as a yearly fee? Nobody told me about this fee.,Accounts,Medium,
+16,My address has changed. How do I update it with the bank?,Accounts,Low,
+17,"My September statement shows a deposit of 30,000 taka that I did not make. Whose money is this?",Accounts,Medium,"Unexpected money coming in. Not a loss for the customer, likely a bank error to check"
+18,I need a solvency certificate for my visa application by Thursday.,Accounts,Medium,Has a deadline
+19,I was charged a late fee on my car loan but I paid on the due date. Please check.,Loans,Medium,
+20,I lost my job last month and I cannot pay my home loan installment. What can I do?,Loans,Medium,"Customer in difficulty, needs a repayment plan review"
+21,I want to pay off my personal loan early. How much will it cost?,Loans,Low,
+22,My loan installment was taken twice from my account this month.,Loans,Medium,"Money taken by mistake, not stolen"
+23,When will my loan application be approved? It has been a month.,Loans,Low,
+24,The interest rate on my loan went up without any letter from the bank.,Loans,Medium,
+25,I keep getting SMS reminders for a loan I already closed last year.,Loans,Low,
+26,I cannot log in to the app. It says my account is locked.,Digital Banking,Medium,
+27,I am not getting the OTP on my phone so I cannot make any transfer.,Digital Banking,Medium,
+28,"I sent 20,000 taka to my brother through the app yesterday. The money left my account but he did not get it.",Digital Banking,Medium,"Money left the account because of a failed transfer, not theft"
+29,The app keeps crashing every time I open the transfer page.,Digital Banking,Medium,
+30,My phone was stolen and my banking app is still logged in on it. Please help fast.,Fraud,High,No money lost yet but a thief may have access to the account
+31,I changed my phone number. How do I get OTPs on the new number?,Digital Banking,Low,
+32,The internet banking page is showing the wrong balance.,Digital Banking,Medium,
+33,I got a login alert from a device I do not own. I did not log in.,Fraud,High,
+34,Please add a dark mode to the app. The bright screen hurts my eyes at night.,Digital Banking,Low,"Feature request, not a real complaint"
+35,The staff at the Dhanmondi branch were very rude to me today.,Other,Medium,Staff conduct complaint
+36,I waited two hours at the branch just to deposit a cheque.,Other,Low,
+37,Your helpline keeps me on hold for 30 minutes every time I call.,Other,Low,
+38,"I made a complaint two weeks ago, reference 88213, and nobody has replied.",Other,Medium,Already past the 7 day reply time in GEN_01
+39,The ATM near my house has been out of service for a week.,Other,Low,
+40,What are the bank's working hours during Eid?,Other,Low,
+41,I just want to say thank you to the officer who helped me yesterday at the Banani branch.,Other,Low,"Not a complaint at all, just a thank you"
+42,my acount money gone 10000 tk i didnt do anything plz help,Fraud,High,Spelling test: messy writing but clearly money taken
+43,"Call me back on 01711223344 about my card, it is not working.",Cards,Medium,Privacy test: phone number should be hidden
+44,Email me at rahim.uddin@example.com because my loan statement has the wrong amount.,Loans,Medium,Privacy test: email should be hidden
+45,My debit card was swallowed by the ATM at Gulshan 2.,Cards,Medium,
+46,I was charged a foreign transaction fee for buying something in taka from a local website.,Cards,Medium,Wrong fee charged
+47,My salary was supposed to come into my account today but it is not there. My employer says they sent it.,Accounts,Medium,
+48,I want to close my account and move to another bank.,Accounts,Low,
+49,Someone took a loan in my name. I never applied for any loan.,Fraud,High,Someone used the customer's identity
+50,My card works in shops but not for online payments.,Cards,Low,
