@@ -1,4 +1,4 @@
-# complaint_triage_assistant
+# Complaint_triage_assistant
 
 An AI helper for a retail bank's complaint desk. A staff member pastes in a customer complaint, and the tool:
 
